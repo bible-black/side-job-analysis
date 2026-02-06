@@ -1,0 +1,7 @@
+# 駅もロードサイドも同じフォーマットで扱う
+
+location_id,location_name,location_type,lat,lon
+1,博多駅,station,33.5902,130.4206
+2,天神駅,station,33.5903,130.4017
+3,国道202号沿いA,roadside,33.5775,130.4100
+4,外環状道路B,roadside,33.5480,130.3620
