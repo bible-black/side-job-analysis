@@ -1,0 +1,8 @@
+similarity_score:
+  base_group:
+    rank: 3
+  distance:
+    metric: euclidean
+    aggregation: median
+  weighting:
+    type: equal

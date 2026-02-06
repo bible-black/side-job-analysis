@@ -1,0 +1,14 @@
+performance_metric:
+  name: sales_12m
+  aggregation: rolling_12m_sum
+
+ranking_method:
+  type: quantile
+  thresholds:
+    rank_3: 0.67
+    rank_2: 0.33
+
+rank_labels:
+  3: high_performance
+  2: middle_performance
+  1: low_performance

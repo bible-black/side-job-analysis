@@ -1,0 +1,13 @@
+outputs:
+  tables:
+    - candidate_score_ranking
+    - validation_result
+
+  figures:
+    - candidate_ranking_bar
+    - score_distribution_box
+    - portfolio_scatter
+
+display:
+  top_n_candidates: 10
+  decimal_places: 2

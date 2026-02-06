@@ -1,0 +1,10 @@
+location_features:
+  - station_distance_m
+  - daytime_population
+  - nighttime_population
+  - competitor_count_500m
+  - road_traffic_volume
+
+standardization:
+  method: zscore
+  fit_scope: all_stores_and_candidates
